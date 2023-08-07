@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Dancing+Script&family=Edu+SA+Beginner:wght@400;600&family=Lobster&family=Lugrasimo&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Edu SA Beginner', cursive, 'sans-serif'; 
+    font-size: 30px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(75,161,250);
+    background: linear-gradient(90deg, rgba(75,78,250,1) 0%, rgba(68,225,244,1) 50%, rgba(82,244,177,1) 100%);
+    opacity: .9;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+.cont h1{
+    text-align: center;
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px;
+    letter-spacing: 3px;
+    font-size: 50px;
+    opacity: .9;
+}
+.container{
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    text-align: center;
+}
+.container p{
+    font-size: 45px;
+}
+.button-box:hover{
+    cursor: pointer;
+}
+.button-box{
+    width: 50%;
+    margin: 3% auto;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.06);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+
+  
+  
+  
+  
+  
